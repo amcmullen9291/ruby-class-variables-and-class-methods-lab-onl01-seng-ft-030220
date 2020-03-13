@@ -13,6 +13,6 @@
   
   def self.count
       @@album_count
-    end
+  end
   
 end
