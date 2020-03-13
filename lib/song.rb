@@ -22,10 +22,6 @@
   
   def self.artists
     @@artists
-    if @@artists.include? "#{artist}"
-      break
-    else
-      @@artists<< artist
   end
 
   def self.genres 
