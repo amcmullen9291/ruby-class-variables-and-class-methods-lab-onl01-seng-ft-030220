@@ -29,14 +29,7 @@
   end
   
   def self.genre_count(genre_name)
-    totals = {}
-    i = 0 
-    while i<@@genres.length 
-    @@genres.map do |genre_name| totals<< [ genre_name=> genre_name.count]
-      end 
-    i+=1
-    end 
-  totals
-end
+  @@genres.uniq.map { |x| [x, arr.count(x)] }.to_h
+  end
 
 end 
