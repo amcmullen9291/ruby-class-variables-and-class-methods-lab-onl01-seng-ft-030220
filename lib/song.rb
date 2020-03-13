@@ -31,7 +31,7 @@
   def self.genre_count
      @@genres.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h
   end
-  def self.genre_count
+  def self.artist_count
      @@artists.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h
   end
 
