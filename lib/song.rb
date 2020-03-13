@@ -11,8 +11,9 @@ def initialize(name, artist, genre)
 end   
   #binding.pry 
 
-  def names_self
-  self.name 
+def self.count
+    @@album_count
+  end  self.name 
   end
   
   
