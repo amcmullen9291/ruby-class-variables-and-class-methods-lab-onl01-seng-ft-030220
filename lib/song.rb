@@ -28,7 +28,10 @@
     @@genres.uniq 
   end
   
-  def self.genre_count
-    
-  
+  def self.genre_count (genre)
+    totals = {}
+    i = 0 
+    while i<@@genres.length 
+    @@genres.map do |genre, song| totals<< ["#{genre}"=> "#{genre}".count]
+
 end
