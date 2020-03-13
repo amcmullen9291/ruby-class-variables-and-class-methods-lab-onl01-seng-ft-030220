@@ -36,4 +36,5 @@
     end 
     i+=1
   end 
+  totals
 end
