@@ -32,7 +32,7 @@
     totals = {}
     i = 0 
     while i<@@genres.length 
-    @@genres.map do |genre_name| totals<< ["#{genre}"=> "#{genre}".count]
+    @@genres.map do |genre_name| totals<< [ genre_name=> genre.count]
       end 
     i+=1
     end 
