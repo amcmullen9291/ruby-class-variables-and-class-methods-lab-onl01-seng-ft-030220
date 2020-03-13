@@ -29,7 +29,7 @@
   end
   
   def self.genre_count(genre_name)
-  @@genres.uniq.map { |x| [x, arr.count(x)] }.to_h
+  @@genres.uniq.map { |genre| [genre, genre.count(genre)] }.to_h
   end
 
 end 
