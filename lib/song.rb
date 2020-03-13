@@ -21,7 +21,7 @@
   end
   
   def self.artists
-    @@artists.value.uniq 
+    @@artists.uniq 
   end
 
   def self.genres 
