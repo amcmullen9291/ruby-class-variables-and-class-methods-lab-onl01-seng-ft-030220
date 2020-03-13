@@ -28,8 +28,4 @@
     @@genres 
   end
   
-  def self.unique_artists
-    unique_artists = @@artists.values.uniq
-  end 
-  
 end
