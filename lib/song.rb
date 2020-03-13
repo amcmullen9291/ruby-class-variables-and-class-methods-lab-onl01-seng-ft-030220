@@ -22,7 +22,7 @@
   
   def self.artists
     @@artists
-    if @@artists.include?
+    if @@artists.include? "#{artist}"
       break
     else
       @@artists<< artist
