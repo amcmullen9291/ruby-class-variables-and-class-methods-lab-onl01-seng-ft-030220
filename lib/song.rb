@@ -10,6 +10,7 @@
      @artist = artist
      @genre = genre
      @@count +=1 
+     @@artists<< artist 
   end   
     #binding.pry 
   
