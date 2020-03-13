@@ -28,11 +28,11 @@
     @@genres.uniq 
   end
   
-  def self.genre_count(genre)
+  def self.genre_count(genre_name)
     totals = {}
     i = 0 
     while i<@@genres.length 
-    @@genres.map do |genre, song| totals<< ["#{genre}"=> "#{genre}".count]
+    @@genres.map do |genre_name| totals<< ["#{genre}"=> "#{genre}".count]
       end 
     i+=1
     end 
