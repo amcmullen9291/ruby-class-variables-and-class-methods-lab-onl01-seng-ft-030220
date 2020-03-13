@@ -28,7 +28,7 @@
     @@genres.uniq 
   end
   
-  def self.genre_count (genre)
+  def self.genre_count(genre)
     totals = {}
     i = 0 
     while i<@@genres.length 
