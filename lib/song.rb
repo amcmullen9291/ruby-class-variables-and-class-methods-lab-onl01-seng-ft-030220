@@ -28,7 +28,7 @@
     @@genres.uniq 
   end
   
-  def self.genre_count(genre_name)
+  def self.genre_count
      @@genres.sort.chunk(&:itself).map {|v, vs| [v, vs.count]}.to_h
   end
 
