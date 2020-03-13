@@ -13,8 +13,12 @@
   end   
     #binding.pry 
   
-  def self.count
-      @@count
+  def self.artists
+      @@artists
   end
   
+  def self.getClassVar
+    @@classVariable
+  end
+
 end
